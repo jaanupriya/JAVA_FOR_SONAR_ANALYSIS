@@ -21,11 +21,11 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>${basedir}</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
 
         <resources>
             <resource>
-                <directory>${basedir}</directory>
+                <directory>src/main/resources</directory>
                 <includes>
                     <include>**/*.java</include>
                 </includes>
